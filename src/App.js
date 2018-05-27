@@ -1,5 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import Home from "./pages/home"
 
 const App = () => (
   <Router>
@@ -23,12 +24,6 @@ const App = () => (
       <Route path="/topics" component={Topics} />
     </div>
   </Router>
-);
-
-const Home = () => (
-  <div>
-    <h2>Home</h2>
-  </div>
 );
 
 const About = () => (
