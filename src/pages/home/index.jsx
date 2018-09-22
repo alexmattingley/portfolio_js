@@ -1,9 +1,14 @@
 import React from "react";
+import {
+  HeroContainer,
+} from "./index.styled.js";
+import GreetingBlock from "./greeting-header/index.jsx";
+
 
 const Home = () => (
-  <div>
-    <h2>Home</h2>
-  </div>
+  <HeroContainer>
+    <GreetingBlock/>
+  </HeroContainer>
 );
 
 export default Home;
